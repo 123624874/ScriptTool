@@ -15,7 +15,7 @@
 // 为窗口添加div
 var doc = document.querySelector('body');
 var bbb = document.createElement('div');
-var ccc = 'width:200px;height:60px;backgroundcolor:red;position:fixed;top:0;left:0;';
+var ccc = 'width:200px;height:60px;background-color:red;position:fixed;top:0;left:0;z-index:9999';
 bbb.style.cssText = ccc;
 doc.appendChild(bbb);
 // 为窗口添加输入框
